@@ -1,0 +1,230 @@
+[25-Jun-2021 13:44:31 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 66
+[25-Jun-2021 13:44:41 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 66
+[25-Jun-2021 13:44:41 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 66
+[25-Jun-2021 13:44:42 America/New_York] PHP Parse error:  syntax error, unexpected ',' in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 66
+[25-Jun-2021 13:45:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:46:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:46:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:46:43 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:48:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:48:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:48:43 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:50:40 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:50:41 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:50:41 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:50:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:50:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:50:43 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:52:12 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:52:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:52:42 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:52:43 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:53:24 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:53:25 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[25-Jun-2021 13:53:25 America/New_York] PHP Notice:  Undefined variable: response in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/qbwc.php on line 52
+[26-Jun-2021 08:10:30 America/New_York] PHP Notice:  Undefined variable: user in /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Queue.php on line 252
+[26-Jun-2021 10:29:32 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 87
+[26-Jun-2021 10:29:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:87
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('9c15c6e8-1f87-3...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 87
+[26-Jun-2021 10:32:02 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 10:32:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('9', 'admin', 'CustomerAdd', '10', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '9', 'CustomerAdd', 0, 'admin', '10', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '9', 'CustomerAdd', 'admin', '10', '', '', NUL in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 10:33:31 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 10:33:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('6', 'admin', 'CustomerAdd', '4', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '6', 'CustomerAdd', 0, 'admin', '4', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '6', 'CustomerAdd', 'admin', '4', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 10:35:31 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 10:35:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('7', 'admin', 'CustomerAdd', '8', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '7', 'CustomerAdd', 0, 'admin', '8', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '7', 'CustomerAdd', 'admin', '8', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 10:37:31 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 10:37:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('8', 'admin', 'CustomerAdd', '9', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '8', 'CustomerAdd', 0, 'admin', '9', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '8', 'CustomerAdd', 'admin', '9', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:17:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:17:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('1', 'admin', 'CustomerAdd', '1', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '1', 'CustomerAdd', 0, 'admin', '1', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '1', 'CustomerAdd', 'admin', '1', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:21:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:21:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('2', 'admin', 'CustomerAdd', '2', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '2', 'CustomerAdd', 0, 'admin', '2', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '2', 'CustomerAdd', 'admin', '2', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:23:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 27
+[26-Jun-2021 11:23:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:27
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('1', 'admin', 'CustomerAdd', '1', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '1', 'CustomerAdd', 0, 'admin', '1', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '1', 'CustomerAdd', 'admin', '1', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 27
+[26-Jun-2021 11:25:29 America/New_York] PHP Notice:  Undefined variable: dsn in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 19
+[26-Jun-2021 11:25:29 America/New_York] PHP Warning:  require_once(/home/justship/public_html/development/qbdesktop/QuickBooks/Driver/.php): failed to open stream: No such file or directory in /home/justship/public_html/development/qbdesktop/QuickBooks/Loader.php on line 56
+[26-Jun-2021 11:25:29 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/justship/public_html/development/qbdesktop/QuickBooks/Driver/.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear:/home/justship/public_html/development/qbdesktop') in /home/justship/public_html/development/qbdesktop/QuickBooks/Loader.php on line 56
+[26-Jun-2021 11:27:29 America/New_York] PHP Notice:  Undefined variable: dsn in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 19
+[26-Jun-2021 11:27:29 America/New_York] PHP Warning:  require_once(/home/justship/public_html/development/qbdesktop/QuickBooks/Driver/.php): failed to open stream: No such file or directory in /home/justship/public_html/development/qbdesktop/QuickBooks/Loader.php on line 56
+[26-Jun-2021 11:27:29 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/justship/public_html/development/qbdesktop/QuickBooks/Driver/.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear:/home/justship/public_html/development/qbdesktop') in /home/justship/public_html/development/qbdesktop/QuickBooks/Loader.php on line 56
+[26-Jun-2021 11:29:29 America/New_York] PHP Notice:  Undefined variable: dsn in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 22
+[26-Jun-2021 11:29:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:29:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('4', 'admin', 'CustomerAdd', '4', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '4', 'CustomerAdd', 0, 'admin', '4', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '4', 'CustomerAdd', 'admin', '4', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:31:29 America/New_York] PHP Notice:  Undefined variable: dsn in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 23
+[26-Jun-2021 11:31:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 27
+[26-Jun-2021 11:31:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:27
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('5', 'admin', 'CustomerAdd', '5', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '5', 'CustomerAdd', 0, 'admin', '5', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '5', 'CustomerAdd', 'admin', '5', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 27
+[26-Jun-2021 11:33:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 22
+[26-Jun-2021 11:33:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:33:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('6', 'admin', 'CustomerAdd', '6', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '6', 'CustomerAdd', 0, 'admin', '6', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '6', 'CustomerAdd', 'admin', '6', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:35:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 22
+[26-Jun-2021 11:35:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:35:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:26
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_request('7', 'admin', 'CustomerAdd', '7', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(511): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '7', 'CustomerAdd', 0, 'admin', '7', '', '', NULL, NULL, '14.0', 'US', Array, '')
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1086): QuickBooks_Callbacks::callRequestHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '7', 'CustomerAdd', 'admin', '7', '', '', NULL,  in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 26
+[26-Jun-2021 11:41:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 70
+[26-Jun-2021 11:41:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:70
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_response('8', 'admin', 'CustomerAdd', '8', NULL, '', NULL, NULL, '<?xml version="...', Array, Array, NULL)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(520): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '8', 'CustomerAdd', 1, 'admin', '8', NULL, '', NULL, NULL, '<?xml version="...', Array, Array, NULL)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1090): QuickBooks_Callbacks::callResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '8', 'Cu in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 70
+[26-Jun-2021 11:43:29 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 67
+[26-Jun-2021 11:43:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:67
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_customer_add_response('9', 'admin', 'CustomerAdd', '9', NULL, '', NULL, NULL, '<?xml version="...', Array, Array, NULL)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(595): QuickBooks_Callbacks::_callFunction('_quickbooks_cus...', Array, '')
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(520): QuickBooks_Callbacks::_callRequestOrResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '9', 'CustomerAdd', 1, 'admin', '9', NULL, '', NULL, NULL, '<?xml version="...', Array, Array, NULL)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1090): QuickBooks_Callbacks::callResponseHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '9', 'Cu in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 67
+[28-Jun-2021 02:53:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 02:53:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('9c13d71e-0e99-b...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 02:55:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 02:55:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('9f9fb8ed-21f5-d...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 02:57:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 02:57:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('98488736-569d-3...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 02:59:31 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 02:59:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('42ed9282-a714-7...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:01:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:01:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('63eb1314-faa6-c...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:03:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:03:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('b4c98c0c-4915-b...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:05:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:05:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('800927f1-c342-8...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:07:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:07:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('ef031c8d-5ce7-3...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:09:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:09:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('3bba667b-8587-c...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:11:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:11:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('3d7ad26f-c2df-5...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:13:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:13:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('6edaabb8-6aaa-c...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:15:30 America/New_York] PHP Notice:  Undefined variable: Driver in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
+[28-Jun-2021 03:15:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php:94
+Stack trace:
+#0 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(161): _quickbooks_error_catchall(NULL, 'admin', NULL, NULL, NULL, '', NULL, 0, '', Array)
+#1 /home/justship/public_html/development/qbdesktop/QuickBooks/Callbacks.php(695): QuickBooks_Callbacks::_callFunction('_quickbooks_err...', Array, '', 5)
+#2 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1179): QuickBooks_Callbacks::callErrorHandler(Object(QuickBooks_Driver_Sql_Mysqli), Array, '0x80040408', 'Could not start...', 'admin', NULL, NULL, NULL, NULL, '', NULL, Array)
+#3 /home/justship/public_html/development/qbdesktop/QuickBooks/WebConnector/Handlers.php(1557): QuickBooks_WebConnector_Handlers->_handleError('de03f4cd-6212-e...', '0x80040408', 'Could not start...', NULL, NULL, NULL, NULL, '', NULL)
+#4 /home/justshi in /home/justship/public_html/development/qbdesktop/docs/web_connector/example_app_web_connector/functions.php on line 94
