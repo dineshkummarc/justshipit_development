@@ -10,12 +10,13 @@
 		<th><span onclick='sortCustomerTable("c_city");' style="cursor:pointer;">City <i class="fa fa-arrows-v"></i></span></th>
 	</tr>
 	<?php
+	$datenow = date("Y-m-d");
 	if(!empty($customerRecords))
 	{
 		foreach($customerRecords as $record)
 		{
 	?> 
-	<tr>
+	<tr class="<?php if($record->tsa_known_shipper == 1 || $record->tsa_approved_vendor == 1){if(!empty($record->revalidation_date) && $datenow > $record->revalidation_date){echo "tsa_red_shipper";}else{echo "tsa_shipper";}}?>">
 		<td class="text-center">
 			<a href="javascript:void(0);" title="Select" onclick="chooseCustomerType(<?php echo $record->customer_id;?>,'<?php echo $record->customer_number; ?>','<?php echo $record->customer_name; ?>');">Select</a>
 		</td> 

@@ -20,13 +20,7 @@
 			<div class="doc_box">
 				<a href="<?php echo base_url().'dommawb/'.$shipInfo['shipment_id']; ?>">MAWB</a>
 			</div>	
-			
-			
-			
-			<div class="doc_box">
-				<a class="color_333" target="_blank" href="<?php echo base_url().'assets/pdf/CargoAcceptAR.pdf'; ?>">Certification</a>
-			</div>
-			
+
 			<div class="doc_box">
 				<a class="color_333" target="_blank" href="<?php echo base_url().'bolLabel/'.$shipInfo['shipment_id']; ?>">BOL Label</a>
 			</div>	
@@ -38,6 +32,18 @@
 			<div class="doc_box">
 				<a class="color_333" href="javascript:void(0);" data-toggle="modal" data-target="#myModaloverlap" onclick="loadTransferAlert(<?php echo $shipInfo['shipment_id']; ?>);">Add transfer Alert</a>
 			</div>	
+			
+			<div class="doc_box">
+				<a class="color_333" target="_blank" href="<?php echo base_url().'assets/pdf/CargoAcceptAR.pdf'; ?>">TSA Acceptance Form</a>
+			</div>
+			
+			<div class="doc_box">
+				<a class="color_333" target="_blank" href="<?php echo base_url().'assets/pdf/KnownShipperForm.pdf'; ?>">TSA Certification</a>
+			</div>
+			
+			<div class="doc_box">
+				<a class="color_333" target="_blank" href="<?php echo base_url().'assets/pdf/FastlineCreditCardAuthorization.pdf'; ?>">Credit Card Authorization</a>
+			</div>
 		</div>
 	</div>
 </div>

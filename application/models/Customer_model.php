@@ -96,7 +96,7 @@ class Customer_model extends CI_Model
 		
 		   // Select record
 
-			$this->db->select('BaseTbl.*');
+			$this->db->select('BaseTbl.*, csec.tsa_known_shipper, csec.revalidation_date');
 			$this->db->from('tbl_customers as BaseTbl');
 			$this->db->join('tbl_customer_secondary as csec', 'csec.customer_id = BaseTbl.customer_id','left');
 

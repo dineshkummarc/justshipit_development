@@ -128,6 +128,12 @@
 		<?php echo (!empty($shipInfo['shipper_data']['s_address_2']) ? $shipInfo['shipper_data']['s_address_2'].'<br/>' : '');?>
 		
 		<?php echo $shipInfo['shipper_data']['s_city']. (isset($shipInfo['shipper_data']['state_name']) ? ', '.$shipInfo['shipper_data']['state_name']. ' '.$shipInfo['shipper_data']['s_zip'] : ''). (isset($shipInfo['shipper_data']['country_name']) ? ', '.$shipInfo['shipper_data']['country_name'] : '');?><br />
+		
+		<?php echo (!empty($shipInfo['shipper_data']['show_name']) ? $shipInfo['shipper_data']['show_name'].'<br/>' : ''); ?>
+		<?php echo (!empty($shipInfo['shipper_data']['exhibitor_name']) ? $shipInfo['shipper_data']['exhibitor_name'].'<br/>' : ''); ?>
+		<?php echo (!empty($shipInfo['shipper_data']['booth_name']) ? 'Booth #'.$shipInfo['shipper_data']['booth_name'].'<br/>' : ''); ?>
+		<?php echo (!empty($shipInfo['shipper_data']['decorator_name']) ? $shipInfo['shipper_data']['decorator_name'].'<br/>' : ''); ?>
+		
         </address>
       </div>
 	  
@@ -140,6 +146,12 @@
 		<?php echo (!empty($shipInfo['consignee_data']['c_address_2']) ? $shipInfo['consignee_data']['c_address_2'].'<br/>' : '');?>
 		
 		<?php echo $shipInfo['consignee_data']['c_city']. (isset($shipInfo['consignee_data']['state_name']) ? ', '.$shipInfo['consignee_data']['state_name']. ' '.$shipInfo['consignee_data']['c_zip'] : ''). (isset($shipInfo['consignee_data']['country_name']) ? ', '.$shipInfo['consignee_data']['country_name'] : '');?><br />
+		
+		<?php echo (!empty($shipInfo['consignee_data']['show_name']) ? $shipInfo['consignee_data']['show_name'].'<br/>' : ''); ?>
+		<?php echo (!empty($shipInfo['consignee_data']['exhibitor_name']) ? $shipInfo['consignee_data']['exhibitor_name'].'<br/>' : ''); ?>
+		<?php echo (!empty($shipInfo['consignee_data']['booth_name']) ? 'Booth #'.$shipInfo['consignee_data']['booth_name'].'<br/>' : ''); ?>
+		<?php echo (!empty($shipInfo['consignee_data']['decorator_name']) ? $shipInfo['consignee_data']['decorator_name'].'<br/>' : ''); ?>
+		
         </address>
       </div>
     </div>

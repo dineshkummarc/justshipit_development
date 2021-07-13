@@ -372,9 +372,15 @@
 											<label class="col-form-label">
 												<input class="form-check-input" type="checkbox" value="1" name="is_customs_broker" id="is_customs_broker">
 												Customs Broker
+											</label></br>
+											
+											<label class="col-form-label">
+												<input class="form-check-input" type="checkbox" value="1" name="tsa_approved_vendor" id="tsa_approved_vendor">
+												TSA Approved Vendor
 											</label>
 											
 										</div>	
+
 									</div>
 									
 									<div class="form-group row">
@@ -729,7 +735,7 @@
 										<span class="" >KSMS ID# &nbsp;</span>
 									</label>
 									
-									<div class="col-sm-4">
+									<div class="col-sm-2">
 										<input type="text" class="form-control" id="ksms_id" value="<?php echo set_value('ksms_id'); ?>" name="ksms_id">
 									</div>
 									
@@ -737,8 +743,16 @@
 										<span class="" >Reverified By</span>
 									</label>
 									
-									<div class="col-sm-4">
+									<div class="col-sm-2">
 										<input type="text" class="form-control" id="reverified_by" value="<?php echo set_value('reverified_by'); ?>" name="reverified_by">
+									</div>
+									
+									<label class="col-sm-2 col-form-label" for="revalidation_date">
+										<span class="" >Revalidation Date</span>
+									</label>
+									
+									<div class="col-sm-2">
+										<input type="text" class="form-control dateonlypicker" id="revalidation_date" value="<?php echo set_value('revalidation_date'); ?>" name="revalidation_date">
 									</div>
 																	
 								</div>

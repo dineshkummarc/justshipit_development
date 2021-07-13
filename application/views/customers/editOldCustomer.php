@@ -411,8 +411,14 @@
 											<label class="col-form-label">
 												<input class="form-check-input" type="checkbox" value="1" name="is_customs_broker" id="is_customs_broker" <?php if($userInfo->is_customs_broker == 1) {echo "checked";} ?>>
 												Customs Broker
-											</label>
+											</label></br>
 											
+											<label class="col-sm-3 col-form-label" for="is_pickup_delivery"></label>
+											
+											<label class="col-form-label">
+												<input class="form-check-input" type="checkbox" value="1" name="tsa_approved_vendor" id="tsa_approved_vendor"  <?php if($userInfo->tsa_approved_vendor == 1) {echo "checked";} ?>>
+												TSA Approved Vendor
+											</label>
 										</div>	
 									</div>
 									
@@ -751,7 +757,7 @@
 									</label>
 									
 									<div class="col-sm-2">
-										<input type="text" class="form-control datepicker" id="ksms_verification_date" value="<?php echo ($userInfo->ksms_verification_date ? date("m/d/Y", strtotime($userInfo->ksms_verification_date)) : null); ?>" name="ksms_verification_date" readonly>
+										<input type="text" class="form-control datepicker" id="ksms_verification_date" value="<?php echo ($userInfo->ksms_verification_date ? date("m/d/Y", strtotime($userInfo->ksms_verification_date)) : null); ?>" name="ksms_verification_date">
 									</div>
 									
 									<label class="col-sm-5 col-form-label" for="blanket_screening_letter">
@@ -767,7 +773,7 @@
 										<span class="" >KSMS ID# &nbsp;</span>
 									</label>
 									
-									<div class="col-sm-4">
+									<div class="col-sm-2">
 										<input type="text" class="form-control" id="ksms_id" value="<?php echo $userInfo->ksms_id; ?>" name="ksms_id">
 									</div>
 									
@@ -775,8 +781,16 @@
 										<span class="" >Reverified By</span>
 									</label>
 									
-									<div class="col-sm-4">
+									<div class="col-sm-2">
 										<input type="text" class="form-control" id="reverified_by" value="<?php echo $userInfo->reverified_by; ?>" name="reverified_by">
+									</div>
+									
+									<label class="col-sm-2 col-form-label" for="revalidation_date">
+										<span class="" >Revalidation Date</span>
+									</label>
+									
+									<div class="col-sm-2">
+										<input type="text" class="form-control dateonlypicker" id="revalidation_date" value="<?php echo ($userInfo->revalidation_date ? date("m/d/Y", strtotime($userInfo->revalidation_date)) : null); ?>" name="revalidation_date">
 									</div>
 																	
 								</div>

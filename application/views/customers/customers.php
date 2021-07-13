@@ -82,12 +82,13 @@
                         <th class="text-center">Actions</th>
                     </tr>
                     <?php
+					$datenow = date("Y-m-d");
                     if(!empty($customerRecords))
                     {
                         foreach($customerRecords as $record)
                         {
                     ?> 
-                    <tr>
+                    <tr class="<?php if($record->tsa_known_shipper == 1){if(!empty($record->revalidation_date) && $datenow > $record->revalidation_date){echo "tsa_red_shipper";}else{echo "tsa_shipper";}}?>">
                         <td><?php echo $record->customer_number ?></td>
                         <td><?php echo $record->customer_name ?></td>
                         <td><?php echo $record->c_address_1 ?></td>

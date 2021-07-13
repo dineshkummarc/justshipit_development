@@ -382,7 +382,8 @@ class Qbdesktop extends BaseController
 					$zip = ($shipInfo['bill_to_data']['customer_data']['r_zip'] ? $shipInfo['bill_to_data']['customer_data']['r_zip'] : $shipInfo['bill_to_data']['customer_data']['c_zip']);
 				} 
 					
-				// Build the qbXML request from $data 
+				// Build the qbXML request from $data
+//<ListID>'.$shipInfo['bill_to_data']['customer_data']['quickbook_id'].'</ListID> 				
 				$xml = '<?xml version="1.0" encoding="utf-8"?>
 						<?qbxml version="10.0"?>
 						<QBXML>
@@ -391,7 +392,6 @@ class Qbdesktop extends BaseController
 							  <InvoiceAdd>
 								<CustomerRef>
 								  <FullName>'.$shipInfo['bill_to_data']['customer_data']['customer_name'].'</FullName>	
-								  <ListID>'.$shipInfo['bill_to_data']['customer_data']['quickbook_id'].'</ListID> 
 								</CustomerRef>
 								<TxnDate>'.date("Y-m-d").'</TxnDate>
 								<RefNumber>'.$shipInfo['shipment_id'].'</RefNumber>
@@ -407,6 +407,7 @@ class Qbdesktop extends BaseController
 								<ItemSalesTaxRef>
 										<FullName>CT Tax</FullName>
 								</ItemSalesTaxRef>
+								<RefNumber>A-123</RefNumber>
 								<Memo></Memo>';
 
 							if(!empty($totalvendorcost)){
@@ -416,7 +417,7 @@ class Qbdesktop extends BaseController
 										</ItemRef>
 										<Desc>Vendor Cost</Desc>
 										<Quantity>'.$totalvendorqty.'</Quantity>
-										<Rate>'.$totalvendorcost.'</Rate>
+										<Amount>'.$totalvendorcost.'</Amount>
 									</InvoiceLineAdd>';
 							} 
 							
@@ -427,7 +428,7 @@ class Qbdesktop extends BaseController
 										</ItemRef>
 										<Desc>Exhibit Material</Desc>
 										<Quantity>'.$totalqty.'</Quantity>
-										<Rate>'.$totalchargecost.'</Rate>
+										<Amount>'.$totalchargecost.'</Amount>
 									</InvoiceLineAdd>';
 							}
 							$xml .= '</InvoiceAdd>
@@ -448,7 +449,8 @@ class Qbdesktop extends BaseController
 
 				$this->email->from('admin@justshipit.com', 'Admin');
 				$this->email->to('phpmasterminds@gmail.com');
-				$this->email->subject('Invoice Request 2');
+				$this->email->cc('vigneshwaran.m@phpmasterminds.com');
+				$this->email->subject('Invoice Request New');
 				$this->email->message(var_export($xml, true));
 				$this->email->send();
 				return $xml;

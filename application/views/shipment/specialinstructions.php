@@ -1,7 +1,7 @@
 
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header" id="movableDialog">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
              <span aria-hidden="true">&times;</span>
@@ -120,6 +120,9 @@
 			$('.special_instructions_div_org').html(bbhtml);
 			$('.submitbox').show();
 		}
+		$('.modal-content').draggable({
+        	handle: ".modal-header"
+        });
 	});
 	function copyspecialinstructions(){
 		$('.special_instructions_div_org #sp_pickup_instructions').html($('.special_instructions_div_org #sp_pickup_instructions').val());
@@ -183,3 +186,8 @@
 		
 	}
   </script>
+	<style>
+	.modal-title {
+		cursor: move;
+	}
+	</style>	
