@@ -1,1 +1,1 @@
-# Admin Panel - User Management using CodeIgniter
+# Justshipit Development files using codeignitor
