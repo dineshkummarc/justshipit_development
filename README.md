@@ -1,1 +1,1 @@
-# Justshipit Development files using codeignitor
+# Justshipit Development files using CodeIgniter
